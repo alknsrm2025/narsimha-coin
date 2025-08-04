@@ -1,0 +1,99 @@
+
+html_content = """
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Narsimha Coin (NRSM)</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0d0d2b;
+      color: #fff;
+    }
+    header {
+      background-color: #14142b;
+      padding: 2rem;
+      text-align: center;
+      border-bottom: 2px solid #ffd700;
+    }
+    h1 {
+      margin: 0;
+      font-size: 3rem;
+      color: #ffd700;
+    }
+    p.tagline {
+      font-style: italic;
+      color: #ccc;
+    }
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    .feature-list li {
+      margin-bottom: 0.8rem;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 1.5rem;
+      padding: 0.75rem 1.5rem;
+      background-color: #ffd700;
+      color: #0d0d2b;
+      text-decoration: none;
+      border-radius: 5px;\n      font-weight: bold;
+    }
+    footer {
+      background-color: #14142b;
+      padding: 1rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #888;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Narsimha Coin (NRSM)</h1>
+    <p class="tagline">"Rage Against Corruption. Roar for Justice."</p>
+  </header>
+  <section>
+    <h2>What is NRSM?</h2>
+    <p>
+      Narsimha Coin is a decentralized cryptocurrency inspired by the divine avatar of Narasimha, embodying justice, power, and protection. It empowers users to combat corruption and promote fairness in the digital space.
+    </p>
+
+    <h2>Key Features</h2>
+    <ul class="feature-list">
+      <li>🛡 Security-Oriented: Anti-fraud protocols built-in</li>
+      <li>🗳 Governance: Community-driven voting system</li>
+      <li>🦁 Staking Rewards: Earn by supporting the network</li>
+      <li>🧠 Education Integration: Learn and earn programs</li>
+    </ul>
+
+    <h2>Tokenomics</h2>
+    <p>
+      <strong>Blockchain:</strong> Ethereum (ERC-20) <br />
+      <strong>Total Supply:</strong> 100,000,000 NRSM <br />
+      <strong>Symbol:</strong> NRSM <br />
+      <strong>Audit:</strong> Pending (Q4 2025)
+    </p>
+
+    <a href="#" class="btn">Join the Roar</a>
+  </section>
+
+  <footer>
+    &copy; 2025 Narsimha Coin. All rights reserved.
+  </footer>
+</body>
+</html>
+"""
+
+file_path = "/mnt/data/Narsimha_Coin_Landing_Page.html"
+with open(file_path, "w") as f:
+    f.write(html_content)
+
+file_path
